@@ -1,0 +1,21 @@
+Write this verified candidate into Notion database "Task Knowledge".
+Use AGENTS.md as authoritative policy. If conflicting rules exist, AGENTS.md wins.
+
+TASK KNOWLEDGE CANDIDATE
+[paste verified block]
+
+Rules:
+- Search before writing
+- Prefer Update, then Merge into an existing broader page if clearly justified, then Create
+- If multiple matching pages exist, stop and ask me which one before writing
+- Update only: Title, Task, Knowledge Type, Merge Status
+- Do not store weak/temporary notes
+- Do not change schema/views
+- Do not touch unrelated records
+
+Before writing show:
+- Decision: Update/Merge/Create/Abort
+- Target page title
+- Reason
+
+Then write and return updated page URL + short changelog.

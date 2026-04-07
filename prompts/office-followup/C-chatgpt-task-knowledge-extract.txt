@@ -1,0 +1,25 @@
+Task: <task name>
+
+Check if this solved issue is reusable future knowledge.
+Return concise output in this format:
+
+TASK KNOWLEDGE CANDIDATE
+Classification: <Update | Merge | Create | Discard>
+Why reusable: <validated reusable reason>
+Recommended destination: Task Knowledge
+Update-or-create recommendation: <Update existing | Merge into broader page | Create new Task Knowledge>
+Candidate title: <short durable title>
+Candidate summary: <reusable stable finding summary>
+
+Suggested fields:
+- Title: <candidate title>
+- Task: <task name>
+- Knowledge Type: <Intake notes | Research notes | Jira merge notes | PDF extraction | Implementation notes | Validation notes>
+- Merge Status: <Active | Needs review | Superseded>
+
+Rules:
+- Prefer Discard over weak storage
+- Prefer Update over Create
+- Only reusable + stable findings
+- Discard if the issue is not yet validated or may still change
+- No raw transcript text

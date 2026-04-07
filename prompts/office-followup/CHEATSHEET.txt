@@ -1,0 +1,9 @@
+OFFICE - FollowUp flow selector
+
+- I am working on a task right now -> A then D
+- I want to record what happened today -> B then E
+- I learned a reusable validated lesson -> C then F
+
+Distinction:
+- Task progress only -> Work Tasks (A/D), not Task Knowledge
+- Reusable validated lesson -> Task Knowledge (C/F)

@@ -1,0 +1,20 @@
+Write this verified candidate into Notion database "Work Tasks".
+Use AGENTS.md as authoritative policy. If conflicting rules exist, AGENTS.md wins.
+
+WORK TASK CANDIDATE
+[paste verified block]
+
+Rules:
+- Search before writing
+- Prefer Update over Create
+- If multiple matching pages exist, stop and ask me which one before writing
+- Update only: Task name, Status-Development, Blocked, Note, Knowledge Page
+- Do not change schema/views
+- Do not touch unrelated records
+
+Before writing show:
+- Decision: Update/Create/Abort
+- Target page title
+- Reason
+
+Then write and return updated page URL + short changelog.

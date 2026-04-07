@@ -1,0 +1,20 @@
+Task: <TASK_KEY_OR_NAME>
+
+Extract only operational updates for this task from this chat/material.
+Return concise output in this format:
+
+WORK TASK CANDIDATE
+Decision: Update existing Work Task
+Why: Task already exists and this is a progress update, not a new task.
+Task name: <exact task title>
+Recommended status: <Not started | In progress | Done | Archive | Cancled>
+Blocked: <Yes/No>
+Concise note: <short execution update + next concrete step>
+Suggested Knowledge Page action: <None | Link existing | Create candidate>
+
+Suggested fields:
+- Task name: <exact task title>
+- Status-Development: <status>
+- Blocked: <Yes/No>
+- Note: <concise note>
+- Knowledge Page: <blank or target title>

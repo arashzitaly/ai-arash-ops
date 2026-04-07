@@ -1,0 +1,20 @@
+Write this verified candidate into Notion database "Daily Work Log".
+Use AGENTS.md as authoritative policy. If conflicting rules exist, AGENTS.md wins.
+
+DAILY WORK LOG CANDIDATE
+[paste verified block]
+
+Rules:
+- Search by date first
+- Prefer Update if same date exists
+- If multiple matching pages exist, stop and ask me which one before writing
+- Update only: Name, Date, Summary, Tasks Worked, Blockers, Next Actions
+- Do not change schema/views
+- Do not touch unrelated records
+
+Before writing show:
+- Decision: Update/Create/Abort
+- Target page title
+- Reason
+
+Then write and return updated page URL + short changelog.

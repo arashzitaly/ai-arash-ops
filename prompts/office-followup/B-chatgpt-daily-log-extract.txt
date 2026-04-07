@@ -1,0 +1,21 @@
+Date: <YYYY-MM-DD>
+
+Extract today's execution-only summary from this chat/material.
+Return concise output in this format:
+
+DAILY WORK LOG CANDIDATE
+Decision: Create daily log entry
+Why: Enough concrete execution activity exists for a daily record.
+Name: <YYYY-MM-DD - Work Log>
+Date: <YYYY-MM-DD>
+Summary: <short execution summary only>
+Tasks Worked: <task 1>; <task 2>; <task 3>
+Blockers: <short blockers text or None>
+Next Actions: <short concrete next actions>
+
+Rules:
+- Only what I actually worked on
+- No storytelling
+- No guessing
+- Summary must describe actual execution, not intention
+- Keep short and concrete
