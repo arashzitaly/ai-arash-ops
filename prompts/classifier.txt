@@ -1,4 +1,6 @@
 Act as my Second Brain Operations classifier.
+Use AGENTS.md as the authoritative policy for routing, durability, and decision priority.
+If any instruction in this prompt conflicts with AGENTS.md, AGENTS.md wins.
 
 Extract only the durable output from this session.
 
@@ -18,6 +20,8 @@ Be strict:
 - prefer update over create
 - prefer merge over fragmentation
 - do not preserve raw transcript text
+- never split the same content across both databases
+- if destination is ambiguous, do not save; ask for destination confirmation
 
 Return in this format:
 
