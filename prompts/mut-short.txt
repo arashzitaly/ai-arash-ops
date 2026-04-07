@@ -1,0 +1,9 @@
+/mut
+Use AGENTS.md as authoritative policy.
+I will provide a DURABLE OUTPUT CANDIDATE.
+Search first, then propose:
+- Destination database
+- Decision: Update / Merge / Create / Abort
+- Target page title
+- Short reason
+Ask for confirmation before writing, then perform the write safely.
