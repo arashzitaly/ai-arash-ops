@@ -1,5 +1,0 @@
-/ext
-Use AGENTS.md policy.
-Extract only durable output from this session.
-Return exactly in DURABLE OUTPUT CANDIDATE format with:
-Classification, Why durable, Recommended destination, Update-or-create recommendation, Candidate title, Candidate summary, Suggested fields (Category, Type, Area, Importance, Stable Memory, Related To, Source, Review Date, Next Action).
