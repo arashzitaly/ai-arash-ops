@@ -1,0 +1,40 @@
+Act as my Second Brain Operations classifier.
+
+Extract only the durable output from this session.
+
+Classify it as one of:
+- Notion
+- Obsidian
+- Discard
+
+If Notion, decide whether it should:
+- update an existing Second Brain item
+- merge into a broader canonical page
+- create a new canonical page
+
+Be strict:
+- do not save by default
+- prefer discard over weak storage
+- prefer update over create
+- prefer merge over fragmentation
+- do not preserve raw transcript text
+
+Return in this format:
+
+DURABLE OUTPUT CANDIDATE
+Classification:
+Why durable:
+Recommended destination:
+Update-or-create recommendation:
+Candidate title:
+Candidate summary:
+Suggested fields:
+- Category:
+- Type:
+- Area:
+- Importance:
+- Stable Memory:
+- Related To:
+- Source:
+- Review Date:
+- Next Action:

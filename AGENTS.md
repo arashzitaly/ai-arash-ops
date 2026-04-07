@@ -1,5 +1,5 @@
 # AGENTS.md
-Version: 2026-04-07.1
+Version: 2026-04-07.2
 Scope: Cross-device operating policy for AI-assisted knowledge capture and Notion mutation.
 
 ## Canonical routing
@@ -77,6 +77,7 @@ Always show:
 - Candidate summary
 
 ## Workflow contract
+- Operating flow: `Extract -> Route -> Quick check -> Codex insert/update`.
 - Classifier stage:
   - classify as `Notion`, `Obsidian`, or `Discard`
   - propose `Update/Merge/Create/Discard`
@@ -85,6 +86,30 @@ Always show:
   - search for duplicates
   - write only after explicit confirmation
   - keep summaries compressed
+
+## Canonical fields for Second Brain writes
+- Title
+- Category
+- Type
+- Status
+- Area
+- Importance
+- Stable Memory
+- Summary
+- Canonical Note
+- Next Action
+- Related To
+- Source
+- Review Date
+
+## Obsidian graph rule
+- For non-exempt HiveBox notes, keep deterministic links to:
+  - `[[HiveBox Project]]`
+  - `[[Roadmap Index]]`
+- Exemptions:
+  - Formula 1 notes
+  - Volvo internship note
+  - templates
 
 ## Local overrides
 - If `AGENTS.local.md` exists in the active workspace, apply it after this file.
